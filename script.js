@@ -20,8 +20,8 @@ images.player = new Image();
 images.sonic = new Image();
 images.sonicReverse = new Image();
 images.sonicReverse.src = '/sonic3-reverse.png';
-images.sonic.src = '/sonic3.png'
-images.player.src = '/cuphead.png'
+images.sonic.src = 'sonic3.png'
+images.player.src = 'cuphead.png'
 
 const characterActions = ['right']
 //'upRight', 'right', 'up', 'jump', 'downRight', 'left'
