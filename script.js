@@ -1,9 +1,9 @@
 const canvas = document.getElementById('canvas');
-const topo = document.getElementById('icons')
+
 
 const resizeCanvas = () => {
-  canvas.width = topo.offsetWidth;
-  canvas.height = topo.offsetHeight;
+  canvas.width = 300;
+  canvas.height = 300;
 
   window.location.reload();
 }
