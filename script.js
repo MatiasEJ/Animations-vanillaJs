@@ -59,7 +59,7 @@ const charWidth = 103;
 const sonicHeight = 55;
 const sonicWidth = 49;
 
-const numberOfCharacter = 3;
+const numberOfCharacter = 6;
 
 const characters = [];
 
