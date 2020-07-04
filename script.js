@@ -2,8 +2,8 @@ const canvas = document.getElementById('canvas');
 
 
 const resizeCanvas = () => {
-  canvas.width = 300;
-  canvas.height = 300;
+  canvas.height = window.innerHeight;
+  canvas.width = window.innerWidth;
 
   window.location.reload();
 }
@@ -12,8 +12,8 @@ window.addEventListener('resize', resizeCanvas, false)
 
 
 const ctx = canvas.getContext('2d');
-canvas.width = 300;
-canvas.height = 300;
+canvas.height = window.innerHeight;
+canvas.width = window.innerWidth;
 
 window.onload = setInterval(animate, 1000 / 30);
 
