@@ -182,7 +182,6 @@ class Sonic {
   }
 
   draw() {
-    console.log(this.action)
     if (this.action === 'left') {
       drawSprite(
         images.sonicReverse,
