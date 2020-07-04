@@ -12,8 +12,8 @@ window.addEventListener('resize', resizeCanvas, false)
 
 
 const ctx = canvas.getContext('2d');
-canvas.width = topo.offsetWidth;
-canvas.height = topo.clientHeight;
+canvas.width = 300;
+canvas.height = 300;
 
 window.onload = setInterval(animate, 1000 / 30);
 
