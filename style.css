@@ -9,13 +9,14 @@ body{
   overflow: hidden;
 }
 
-.floor {
+#floor {
+  margin-top: 20%;
   position: absolute;
-  width: 500%; height: 500%;
-  top: 0; left: 0;
+  width: 100%; height: 224px;
+  
   background: url('bgemeraldhill01.png');
-    
-   
+  background-repeat: repeat-x;
+  
 }
 
 #canvas{

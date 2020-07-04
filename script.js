@@ -1,19 +1,39 @@
 const canvas = document.getElementById('canvas');
+const topo = document.getElementById('floor')
+
 
 
 const resizeCanvas = () => {
-  canvas.height = window.innerHeight;
-  canvas.width = window.innerWidth;
+  canvas.width = topo.offsetWidth;
+  canvas.height = topo.offsetHeight;
 
   window.location.reload();
+ 
 }
 
 window.addEventListener('resize', resizeCanvas, false)
 
 
 const ctx = canvas.getContext('2d');
-canvas.height = window.innerHeight;
-canvas.width = window.innerWidth;
+canvas.width = topo.offsetWidth;
+canvas.height = topo.clientHeight;
+
+
+
+
+// const resizeCanvas = () => {
+//   canvas.height = window.innerHeight;
+//   canvas.width = window.innerWidth;
+
+//   window.location.reload();
+// }
+
+// window.addEventListener('resize', resizeCanvas, false)
+
+
+// const ctx = canvas.getContext('2d');
+// canvas.height = window.innerHeight;
+// canvas.width = window.innerWidth;
 
 window.onload = setInterval(animate, 1000 / 30);
 
